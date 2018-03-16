@@ -2,7 +2,12 @@ body{
 	background-color: #A4A4A4;
 	font-family: Iceland;
 }
+
 @font-face{
 	font-family: Iceland;
 	src:url(Fuentes/iceland.ttf);
+}
+.Titulo{
+	font-family: Iceland;
+	font-size: 50px;
 }
