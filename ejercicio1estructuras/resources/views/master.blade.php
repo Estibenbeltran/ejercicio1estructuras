@@ -28,24 +28,9 @@
       </a>
     </div></center>
     <center><font color="#212529"><h1>Motor de Busqueda de 4 Parámetros</h1></font></center>
-    <center><form action="{{url('busqueda')}}" method="POST">
-        {{csrf_field()}}
-        <div class="form-group">
-        <label for="Opcion">Seleccione una opción</label>
-        <select class="form-control-sm" id="Opcion" name="opcion">
-          <option>Nombre</option>
-          <option>Apellido</option>
-          <option>Ciudad</option>
-          <option>Celular</option>
-        </select>
-      </div>
-      <div class="form-group">
-        <label for="formGroupExampleInput">Digite el valor de la opción</label>
-        <input type="text" class="form-control-sm" id="valor" name="valor" placeholder="Buscar...">
-        &nbsp;&nbsp;&nbsp;
-        <button type="submit" class="btn btn-dark mb-2">Buscar</button>
-      </div>
-    </form></center>
+    <nav class="nav nav-pills nav-justified">
+            <a class="nav-item nav-link active" href="http://localhost/ejercicio1estructuras/ejercicio1estructuras/public/">Busqueda</a>&nbsp;&nbsp;
+    </nav>
     @yield ('contenido')
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

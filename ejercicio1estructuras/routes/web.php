@@ -10,13 +10,13 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', function () {
+Route::get('/master', function () {
     return view('master');
 });
-Route::get('/contenido', function () {
+Route::get('/', function () {
     return view('contenido');
 });
 Route::get('/contenido2', function () {
     return view('contenido2');
 });
-Route::post('Busqueda','ControladorEjercicio@ContenidoMatriz');
+Route::post('Informacion','ControladorEjercicio@MatrizEjercicio');

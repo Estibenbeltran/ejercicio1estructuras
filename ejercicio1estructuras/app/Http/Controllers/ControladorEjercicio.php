@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class ControladorEjercicio extends Controller
 {
-    public function ContenidoMatriz(Request $request){
+    public function MatrizEjercicio(Request $request){
 
     		$datoBusqueda = $request->input('datoBusqueda');
 	    	$buscador = $request->input('buscador');
