@@ -14,12 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/master', funtion()){
-	return view('master');
-}
-Route::get('/', funtion()){
-	return view('contenido');
-}
-Route::get('/contenido2', funtion()){
-	return view('contenido2');
-Route::post('Busqueda','ControladorEjercicio@ContenidoMatriz')
+Route::get('/master', function () {
+    return view('master');
+});
+Route::get('/contenido', function () {
+    return view('contenido');
+});
+Route::get('/contenido2', function () {
+    return view('contenido2');
+});
+Route::post('Busqueda','ControladorEjercicio@ContenidoMatriz');
